@@ -1,5 +1,5 @@
-title: AzStuff - José Cabeza's Blog
-#greetings: <img src="./assets/images/t-rex-1.png" width="60" height="60"> AzStuff. # 🌱 AzStuff.
+title: <img src="./assets/images/t-rex-1.png" width="60" height="60"> AzStuff - José Cabeza's Blog
+#example: <img src="./assets/images/t-rex-1.png" width="60" height="60"> AzStuff. # 🌱 AzStuff.
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal blog. I work at Microsoft as a Consultant. 
   You can find some of my open source projects on Github.
