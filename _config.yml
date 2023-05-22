@@ -3,7 +3,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is my personal blog. I work at Microsoft as a Consultant. 
   You can find some of my open source projects on Github.
   I like to share my knowledge about Azure, PowerShell and DevOps
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jcabeza.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jcabeza1
 github_username:  jcabeza
