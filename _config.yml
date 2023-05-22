@@ -1,10 +1,13 @@
 title: AzStuff - José Cabeza's Blog
+greetings: <img src="./assets/images/t-rex-1.png" width="60" height="60"> AzStuff. # 🌱 AzStuff.
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal blog. I work at Microsoft as a Consultant. 
   You can find some of my open source projects on Github.
   I like to share my knowledge about Azure, PowerShell and DevOps
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jcabeza.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+lang: en-US
+timezone:  Europe/Rome
 twitter_username: jcabeza1
 github_username:  jcabeza
 
@@ -13,7 +16,8 @@ github_username:  jcabeza
 # (leave the rest blank to disable the corresponding sharing button)
 owner:
     name: José Cabeza
-    email: 
+    bio: just a minimalist, personal blog
+    email: your-email@email.com
     github: jcabeza
     twitter: jcabeza1
     linkedin: 
@@ -26,7 +30,8 @@ owner:
 disqus_shortname: ''
 
 # Jekyll configuration
-permalink: /:year/:month/:day/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: pretty
 #paginate: 8
 
 # Build settings
@@ -36,6 +41,12 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jemoji
+  - jekyll-paginate
+  - jekyll-relative-links
+  
+relative_links:
+  enabled:     true
+  collections: false
 
 # Include
 include: [".well-known"]
